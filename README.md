@@ -9,7 +9,16 @@ A script to clean, vacuum tables and rebuild indexes.
 You need to add username, host and DB before you run it.
 
 # Proxmox tools:  
-### update_autostart.sh  
+## prox_usage.py  
+run this on your PVE-server:
+```sh
+python3 prox_usage.py
+```
+![Screenshot of the app](images/screenshot.jpg "prox_usage.py")
+
+
+
+## update_autostart.sh  
 A script used to update the --onboot option for guests
 To enable autostart, run:  
 __./update_autostart.sh 1__  
