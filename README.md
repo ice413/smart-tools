@@ -31,3 +31,5 @@ Same as above, but this will disable autostart.
 
 __./update_autostart.sh -l__  
 This return a list of all guests and if they are autostart or not.  
+
+Just a test
